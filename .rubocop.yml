@@ -1,8 +1,9 @@
+AllCops:
+  SuggestExtensions: false
+  TargetRubyVersion: 3.0
+
 Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/Documentation: 
   Enabled: false
-
-AllCops:
-  SuggestExtensions: false

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'This gem allows you to build forms in Rails in efficient way'
   spec.homepage      = 'https://github.com/resh0607/rails-project-lvl1'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 3.0')
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
