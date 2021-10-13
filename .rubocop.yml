@@ -2,9 +2,6 @@ AllCops:
   SuggestExtensions: false
   TargetRubyVersion: 3.0
 
-Layout/LineEndStringConcatenationIndentation:
-  Enabled: true
-
 Style/Documentation: 
   Enabled: false
 
