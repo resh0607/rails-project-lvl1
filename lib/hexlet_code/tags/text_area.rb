@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module HexletCode
   class TextArea
     include TagHelper
 
-    TAG_NAME = 'textarea'.freeze
+    TAG_NAME = 'textarea'
 
     def initialize(attr_name, object, options = {})
       @attr_name = attr_name

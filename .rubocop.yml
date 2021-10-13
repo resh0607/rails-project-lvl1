@@ -2,8 +2,8 @@ AllCops:
   SuggestExtensions: false
   TargetRubyVersion: 3.0
 
-Style/FrozenStringLiteralComment:
-  Enabled: false
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
 
 Style/Documentation: 
   Enabled: false

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class HexletCodeTest < Minitest::Test
@@ -19,11 +21,11 @@ class HexletCodeTest < Minitest::Test
 
     expected =
       '<form action="#" method="post">'\
-        '<label for="name">Name</label>'\
-        '<input name="name" type="text">'\
-        '<label for="job">Job</label>'\
-        '<input name="job" type="text" value="hexlet">'\
-        '<input name="commit" type="submit" value="Save">'\
+      '<label for="name">Name</label>'\
+      '<input name="name" type="text">'\
+      '<label for="job">Job</label>'\
+      '<input name="job" type="text" value="hexlet">'\
+      '<input name="commit" type="submit" value="Save">'\
       '</form>'
 
     assert_equal(expected, actual)

@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 module HexletCode
   autoload :FormObject, 'hexlet_code/form_object'
 
   class Form
     include TagHelper
 
-    TAG_NAME = 'form'.freeze
+    TAG_NAME = 'form'
 
     def initialize(object, options = {})
       @object = object

@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module HexletCode
   class Input
     include TagHelper
 
-    TAG_NAME = 'input'.freeze
+    TAG_NAME = 'input'
 
     def initialize(attr_name, object, options = {})
       @attr_name = attr_name

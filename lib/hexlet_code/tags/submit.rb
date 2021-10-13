@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module HexletCode
   class Submit
     include TagHelper
 
-    TAG_NAME = 'input'.freeze
+    TAG_NAME = 'input'
 
     def initialize(**options)
       @options = options

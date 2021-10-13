@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hexlet_code/tag_builder'
 require 'hexlet_code/tags/label'
 
